@@ -1,0 +1,73 @@
+.activBtn {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.box-item img {
+    width: 250px;
+    height: 150px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom: 1px solid black;
+}
+
+.box-item {
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.403);
+}
+
+.box-item h3 {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.back {
+    border: 0;
+    outline: 0;
+    box-shadow: 0 4px 6px -1px gray;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.back-icon {
+    font-size: 30px;
+}
+
+.country-container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.flag img {
+    width: 400px;
+    height: 250px;
+}
+
+.b-font {
+    font-weight: 700;
+}
+
+.borders {
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+.orderBtn {
+    margin-left: 10px;
+    padding: 3px 13px;
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(217, 0, 0);
+    color: white;
+}
+
+.flag img {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.766);
+}
+
+.salam {
+    background-color: black !important;
+}
