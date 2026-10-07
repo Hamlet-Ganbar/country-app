@@ -12,7 +12,7 @@ function Country() {
   const navigate = useNavigate()
 
   useLayoutEffect(() => {
-    fetch('https://restcountries.com/v3.1/all')
+    fetch('https://api.allorigins.win/raw?url=' + encodeURIComponent('https://restcountries.com/v3.1/all'))
     .then(response => {
       if (response.status === 404) {
         navigate("/404")
