@@ -24,8 +24,11 @@ function Country() {
       })
   }, [])
 
-  const filtered = country.filter(c => c.name.common.toLowerCase().startsWith(search.toLocaleLowerCase()) && c.region?.toLowerCase().startsWith(region.toLowerCase()))
-
+ const filtered = country.filter(c => {
+  const nameMatch = c.name?.common?.toLowerCase().startsWith(search.toLowerCase());
+  const regionMatch = region === "" || (c.region && c.region.toLowerCase() === region.toLowerCase());
+  return nameMatch && regionMatch;
+});
   return (
     <div className='py-5'>
       <div className='containerr py-3 text-center d-flex flex-wrap gap-4 justify-content-between'>
